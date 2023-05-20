@@ -10,7 +10,7 @@
 .con{
     background-color: lightblue;
     height: 40px;
-    width: 1080px;
+    width: 1350px;
 }
 
 .con > marquee{
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-around;
     height: 50px;
-    width: 1080px;
+    width: 1350px;
     align-items: center;
     text-align: center;
 }
@@ -46,11 +46,12 @@ a.link{
     color: black;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 a:hover, .fa-cart-shopping:hover{
     color: grey;
 }
-a:hover{
+.menu a:hover{
     color: grey;
     text-decoration: underline;
 }
@@ -64,7 +65,7 @@ a:hover{
 
 .hero{
     height: 420px;
-    width: 1080px;
+    width: 1350px;
     align-items: center;
     background: url(./img/photo-1504674900247-0877df9cc836.jpg);
     background-repeat: no-repeat;
@@ -100,7 +101,7 @@ button.view{
     text-decoration: none;
     color: white;
     cursor: pointer;
-    margin-left: 350px;
+    margin-left: 550px;
 }
  
 button.view:hover{
@@ -130,9 +131,10 @@ button.book:hover{
     text-align: center;
 }
 .story > hr{
-    width: 20%;
+    width: 15%;
     border: 3px solid burlywood;
-    margin-left: 430px;
+    border-radius: 5px;
+    margin-left: 580px;
 }
 
 .story p{
@@ -140,12 +142,12 @@ button.book:hover{
 }
 .container{
     height: 450px;
-    width: 1080px;
+    width: 1350px;
     display: flex;
     padding-left: 10px;
 }
 .conA,.conB{
-    width: 520px;
+    width: 690px;
 }
 .conA > h1{
     text-align: left;
@@ -175,8 +177,8 @@ button.book:hover{
 }
 .con1a,.con1b,.con1c,.con1d{
     border-radius: 10px;
-    height: 290px;
-    width: 400px;
+    height: 280px;
+    width: 350px;
     margin-left: 20px;
     box-shadow: 0px 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -190,7 +192,7 @@ button.book:hover{
     border-radius: 50%;
 }
 .content:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
 }
 
@@ -209,16 +211,16 @@ i{
 .fieldseter{
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 45px;
 }
 fieldset{
     border-radius: 15px;
-    background-color: burlywood;
-    height: 53vh;
-    width: 50vh;
+    background-color: antiquewhite;
+    height: 52vh;
+    width: 60vw;
     border:  none;
     margin: 35px;
-    padding: 10px auto;
+    padding: 5px auto;
 }
 legend {
     text-align: center;
@@ -228,19 +230,16 @@ legend {
 fieldset > p,fieldset > h4{
     text-align: center;
     font-size: 15px;
-    line-height: 25px;
-}
-
-fieldset > h4:hover{
-    text-decoration: underline;
-    border-bottom: 2px solid grey;
-    border-width: 30%;
+    line-height: 30px;
 }
 
 fieldset > legend img{
     border-radius: 50%;
 }
 
+.holder{
+    display: flex;
+}
 .filder{
     margin: 35px auto;
     padding: 10px auto;
@@ -257,11 +256,11 @@ fieldset > legend img{
     align-items: center;
     background-color: antiquewhite;
     height: 120px;
+    padding-left: 60px;
 }
 
 .last li{
     list-style-type: none;
-    /* margin: 30px; */
 }
 
 .last ul{
@@ -273,24 +272,28 @@ a{
     color: black;
     text-decoration: none;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .Whatsapp{
     color: green;
+    font-size: 20px;
 }
 .facebook{
     color: blue;
+    font-size: 20px;
 }
 .instagram{
     color: rgb(226, 38, 216);
+    font-size: 20px;
 }
 .twitter{
   color: #1bc1ef;
+  font-size: 20px;
 }
 .foot3{
     color: black;
     text-align: center;
-    font-family: 'Lucida Sans';
+    font-family: 'Poppins',sans-serif;
     background-color: antiquewhite;
     height: 50px;
 }
